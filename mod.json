@@ -1,0 +1,53 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "proplat.welcome-menu",
+	"name": "Welcome Menu",
+	"version": "v1.0.0",
+	"developer": "ProPlat",
+	"description": "Shows some stuff at the main menu as welcome.",
+	"tags": ["interface"],
+	"settings": {
+		"show-greeting": {
+			"type": "bool",
+			"name": "Shows the Hi.",
+			"description": "Good morning / Good afternoon / Good evening / Good night depending on the time.",
+			"default": true
+		},
+		"show-date": {
+			"type": "bool",
+			"name": "Show date",
+			"description": "Days of the week, months, year.",
+			"default": true
+		},
+		"show-seconds": {
+			"type": "bool",
+			"name": "Show seconds",
+			"description": "Adds the seconds at the clock.",
+			"default": true
+		},
+		"use-24h": {
+			"type": "bool",
+			"name": "24-hour format",
+			"description": "Enable to get the 24-hour format.",
+			"default": false
+		},
+		"opacity": {
+			"type": "int",
+			"name": "Opacity (%)",
+			"description": "Opacity of the text",
+			"default": 80,
+			"min": 10,
+			"max": 100,
+			"control": {
+				"input": true,
+				"slider": true
+			}
+		}
+	}
+}
